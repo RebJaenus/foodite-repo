@@ -1,8 +1,38 @@
 @import "bootstrap";
+// @import url('https://fonts.googleapis.com/css?family=Anton');
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat');
+// @import url('https://fonts.googleapis.com/css?family=Prompt');
+// @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+// @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: image_url('bedge_grunge.png');
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+
+}
+
+.navbar {
+  background: image_url('mochaGrunge.png');
+  box-shadow: 0px 3px 3px #E5E4D4; /*   #6F6E5E;  */ 
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E2E1D7; // C4C2A4;
+  // font-family: 'Anton', sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Prompt', sans-serif;
+  // font-family: 'Poiret One', cursive;
+  // font-family: 'Fascinate Inline', cursive;
+  font-family: 'poiret_oneregular', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .booyah-box {
