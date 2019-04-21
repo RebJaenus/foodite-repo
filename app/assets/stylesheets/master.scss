@@ -27,12 +27,16 @@ body {
   // font-family: 'Anton', sans-serif;
   // font-family: 'Josefin Sans', sans-serif;
   // font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
   // font-family: 'Prompt', sans-serif;
   // font-family: 'Poiret One', cursive;
   // font-family: 'Fascinate Inline', cursive;
   font-family: 'poiret_oneregular', sans-serif;
-  font-size: 26px;
   font-weight: 600;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FEFAF1;
 }
 
 .booyah-box {
@@ -45,4 +49,24 @@ body {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+}
+
+.page-link {
+    color: #E2E1D7;
+    background: image_url('mochaGrunge.png');
+    border-color: #74736F; //#E5E4D4;
+}
+
+.pagination {
+  padding: 20px;
+}
+.pagination a:hover {
+  color: #FEFAF1;
+  border-color: #94938F;
+}
+
+.page-item.active .page-link{
+    background: image_url('bedge_grunge.png');
+    color: #414030;
+    border-color: #74736F;
 }
