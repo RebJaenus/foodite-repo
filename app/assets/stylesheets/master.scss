@@ -52,6 +52,13 @@ body {
   padding: 20px;
 }
 
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
 .page-link {
     color: #E2E1D7;
     background: image_url('mochaGrunge.png');
