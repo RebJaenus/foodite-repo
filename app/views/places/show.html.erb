@@ -32,13 +32,19 @@
   <br />
 
   <% if @place.photos.present? %>
-    <% @place.photos.each do |photo| %>
-      <%= image_tag photo.picture.url %>
-      <br />
-      <% if photo.caption.present? %>
-        <%= photo.caption %>
+    <div class="row">
+      <% @place.photos.each do |photo| %>
+        <div class="col-sm-4">
+          <%= image_tag photo.picture.url, class: 'img-fluid' %>
+          <br />
+          <% if photo.caption.present? %>
+            <%= photo.caption %>
+          <% end %>
+          <br />
+          <br />
+        </div>
       <% end %>
-    <% end %>
+    </div>
   <% end %>
   <br />
 
